@@ -1,10 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+img{
+    display: block;
+    border:#013220 7px solid;
+}
+
 body {
-    background-color: #FAFDF6;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f2f3ae;
+}
+h1, h2 {
+    color: #211103;
+    background-color: #f2f3ae;
+    width: 500px;
+    margin:100px auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: #013220 11px solid;
+    border-radius: 70px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2 {
+    padding: 50px;
+    border: #013220 11px solid;
+    font-size: 1.9rem;
+}
+
+.images-container{
+    display: flex;
+    justify-content: space-evenly;   
+}
+p{
+    color: #211103;
+    font-size:1.7rem;
+    margin: 1.5rem;
+    border: #013220 5px double;
+    border-radius: 7px;
+    padding: 1.7rem;
+}
+h3{
+    color: #211103;
+    background-color: #f2f3ae;
+    width: 300px;
+    margin:100px auto;
+    margin-bottom: 50px;
+    padding:30px;
+    border: #013220 9px solid;
+    border-radius: 70px;
+    text-align: center;
+   
+    font-size: 2rem;
+}
+.lists-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.ingredients{    
+grid-column: 1;
+}
+.steps{
+grid-column: 2;
+}
+.ul{
+    color: #211103;
+    margin: 50px;
+    border: #013220 double 7px;
+    border-radius: 7px;
+    padding: 30px;
+    font-size: 1.7rem;
+    list-style-type:circle;
+    line-height: 1.5;
 }
