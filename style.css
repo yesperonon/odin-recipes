@@ -31,7 +31,7 @@ h1 {
     text-align: center;
     font-size: 1.4rem;
     list-style-position: inside;
-    list-style-type: upper-roman;
+    list-style-type: circle;
 }
 
 .links a {
